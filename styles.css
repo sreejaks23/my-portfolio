@@ -25,11 +25,11 @@ body {
     box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
-/* Prevent content from being hidden behind navbar */
-body {
-    padding-top: 70px; /* Adjust based on navbar height */
+/* Apply brighter text color with a subtle shadow effect */
+h1, h2, h3, p, li, a {
+    color: #444; /* Lighten the black by using a soft gray */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
-
 .navbar .logo {
     font-size: 1.8rem;
     color: #007acc;
@@ -127,7 +127,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.9); /* Slightly less transparent for better contrast */
+   background: rgba(240, 248, 255, 0.9); /* Light blueish shade */
     border: 1px solid #e0f0ff;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
